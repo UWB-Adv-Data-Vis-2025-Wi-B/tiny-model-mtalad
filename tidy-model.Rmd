@@ -70,7 +70,7 @@ Based on the scatter plot of temperature and chirp rate, the following observati
 
 - For the niveus species, as temperature increases by one, the rate of chirping increases by about 37 chirps per minute.
 
-## Interactions
+## Interactions 
 
 ```{r species histogram, echo = FALSE}
 ggplot(crickets, aes(x = rate, fill = species)) + 
